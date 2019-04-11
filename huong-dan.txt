@@ -1,0 +1,20 @@
+HƯỚNG DẪN SỬ DỤNG TRƯỚC KHI LIỀU:
+
+1. Khi vừa mới pull source về thì chạy 'npm install' để nó cài các package cần thiết
+
+2. 'node main.js' để khởi chạy server
+
+3. Các API đã viết cho patient
+
+- GET: http://localhost:8080/api/patients - Lấy tất cả các patients
+
+- GET: http://localhost:8080/api/patients/1 - Lấy patients có id là 1
+
+- POST: http://localhost:8080/api/patients với request body { name: Ngân } - Tạo một patient có tên là 'Ngân'
+
+- PUT: http://localhost:8080/api/patients với request body { id: 1, name: Đạt } - Sửa tên bênh nhân có id là 1 thành 'Đạt'
+
+- DELELE: http://localhost:8080/api/patients - Xóa tất cả các bệnh nhân
+
+- DELELE: http://localhost:8080/api/patients/1 - Xóa bệnh nhân có id là 1
+
